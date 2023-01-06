@@ -1,11 +1,7 @@
-! pip install streamlit   
-streamlit run test5.py
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.title("タイトル")
 st.write("何でも書ける")
 st.markdown("## マークダウンで書く $x^2$")
 st.title("オーケストラを奏でよう！")
